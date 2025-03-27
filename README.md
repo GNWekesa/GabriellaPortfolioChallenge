@@ -66,4 +66,21 @@ Tested responsiveness to see how the pages look on different screen sizes.
 My pages are currently in my laptop's local development stage.
 Next I want to deploy them online using GitHub Pages
 
+How I did step 4
+Action 1 - Enable GitHub Pages for my repository
+I made sure my repository Has an index.html File. Then:
+
+Action 2 - Enable GitHub Pages in Repository Settings
+1.	Opened my repository on GitHub.
+2.	Clicked on the Settings tab.
+3.	Scrolled down to "Pages" (under "Code and automation").
+4.	In the "Branch" section, selected main since my files are in the main branch)
+5.	Click Save.
+
+Action 3 -  Wait to test my website
+GitHub Pages takes a few minutes to deploy.
+After that, I visited my github’s repository home page, upon scrolling down I check the deployments section and saw mine as:
+Deployments1
+•	 github-pages 3 minutes ago
+I clicked on it and found my webpage as : https://gnwekesa.github.io/GabriellaPortfolioChallenge/ 
 
