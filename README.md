@@ -38,7 +38,7 @@ I decied on HTML and subsequent CSS that would ensure a clean layout for readabi
 i made the html and css pages
 i used sqlite to allow me to create a database on cmd instead of using workbench. This allowed me to create a database in a folder that is in my project folder and make tables in it    
 
-                4. Deployment
+                4. Testing
    i had done the html pages, css, and python scripts in a folder called GabriellaNWekesaPortfolio so when cloning i decied to clone in it so now my new file structure looks like this
   PLP Academy Portfolio Challenge/GabriellaNWekesaPortfolio/GabriellaPortfolioChallenge/
 │── cv_files/                   this contains my original CV file
@@ -56,4 +56,13 @@ i used sqlite to allow me to create a database on cmd instead of using workbench
 │── upload_cv.py                this contains Python scripts for backend 
 │── download_cv.py              this contains Python scripts for backend 
 
- 
+ i tested to see :
+correct display and styling.
+Verified that the CV download button works properly.
+Ensured all links, images, and text were displayed correctly.
+Tested responsiveness to see how the pages look on different screen sizes.
+                4. Deployment
+My pages are currently in my laptop's local development stage.
+Next I want to deploy them online using GitHub Pages
+
+
