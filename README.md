@@ -5,7 +5,8 @@ programming languages to use HTML, CSS, and MySQL
 my idea is to store my CV details in a database and retrieve them to my website. Now let me use the SDLC
 Wednesday 26th March 2025
                 1. Planning 
-Tech Stack: Strictly HTML5 + CSS
+                
+Instructed Tech Stack: Strictly HTML5 + CSS
 My method:
 The HTML will be for my web page’s structure
 The CSS will add style to it
