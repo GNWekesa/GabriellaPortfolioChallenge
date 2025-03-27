@@ -1,0 +1,25 @@
+import sqlite3
+
+# Function to write binary data to a file
+def write_file(data, filename):
+    with open(filename, "wb") as file:
+        file.write(data)
+
+# Connect to SQLite database
+conn = sqlite3.connect("database/portfolio.db")
+cursor = conn.cursor()
+
+# Retrieve the CV from database
+cursor.execute("SELECT filename, file FROM cv_data ORDER BY id DESC LIMIT 1")
+row = cursor.fetchone()
+
+if row:
+    filename, file_data = row
+    download_path = f"downloads/{filename}"  # Save in the downloads folder
+    write_file(file_data, download_path)
+    print(f"✅ CV successfully downloaded: {download_path}")
+else:
+    print("❌ No CV found in the database!")
+
+# Close connection
+conn.close()
