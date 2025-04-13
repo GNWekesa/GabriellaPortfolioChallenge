@@ -79,8 +79,10 @@ Action 2 - Enable GitHub Pages in Repository Settings
 
 Action 3 -  Wait to test my website
 GitHub Pages takes a few minutes to deploy.
+
 After that, I visited my github’s repository home page, upon scrolling down I check the deployments section and saw mine as:
 Deployments1
 •	 github-pages 3 minutes ago
 I clicked on it and found my webpage as : https://gnwekesa.github.io/GabriellaPortfolioChallenge/ 
+This is wonderful
 
